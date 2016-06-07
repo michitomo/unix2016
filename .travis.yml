@@ -1,0 +1,3 @@
+language: bash
+script:
+    - bash -e kadai2_test.sh

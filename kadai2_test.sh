@@ -1,0 +1,55 @@
+#!/bin/bash
+
+FAIL=0
+if [ `./kadai2.sh 509 2581` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 5458 4458` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 2 7030` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4342 4009` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 3828 1493` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 9286 734` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 8310 595` -ne 5 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4268 2073` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 9686 3482` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 3472 713` -ne 31 ]; then FAIL=1; fi
+if [ `./kadai2.sh 8147 1204` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 1262 1681` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 1082 5160` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 7525 8262` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 5039 3722` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 1466 6119` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 6551 7220` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 5346 2522` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4320 5341` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 8952 4104` -ne 24 ]; then FAIL=1; fi
+if [ `./kadai2.sh 2952 9952` -ne 8 ]; then FAIL=1; fi
+if [ `./kadai2.sh 1146 238` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 9659 4255` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 5832 7049` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 2281 3199` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 6499 9940` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 5956 3106` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 3818 7888` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 3095 6770` -ne 5 ]; then FAIL=1; fi
+if [ `./kadai2.sh 6103 1271` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 1592 6230` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 9754 9833` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4756 5204` -ne 4 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4245 3596` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 3779 4800` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 804 5710` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 8431 1852` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 8508 982` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4103 1440` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4499 5782` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 3260 1708` -ne 4 ]; then FAIL=1; fi
+if [ `./kadai2.sh 1122 1664` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 2266 6306` -ne 2 ]; then FAIL=1; fi
+if [ `./kadai2.sh 6540 3905` -ne 5 ]; then FAIL=1; fi
+if [ `./kadai2.sh 9134 3311` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 1185 4581` -ne 3 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4379 2711` -ne 1 ]; then FAIL=1; fi
+if [ `./kadai2.sh 4644 1158` -ne 6 ]; then FAIL=1; fi
+if [ `./kadai2.sh 9831 9726` -ne 3 ]; then FAIL=1; fi
+if [ `./kadai2.sh 8733 3935` -ne 1 ]; then FAIL=1; fi
+
+exit $FAIL
